@@ -21,5 +21,5 @@ layers:
   FN:
     - ["F1", "F2", "F3", "F4", "F5", "F6", "BT1", "BT2", "BT3", "BT4", "BT5", "BT CLR"]
     - ["F7", "F8", "F9", "F10", "F11", "F12", null, null, null, null, null, "BT/USB"]
-    - ["≥", "≤", "RGB ON", "RGB OFF", "RGB EFF", "RGB EFR", "RGB BRI", "RGB BRD", "RGB SPI", "RGB SPD", "USB OFF", "BT OFF"]
+    - ["≥", "≤", "RGB ON", "RGB OFF", "RGB EFF", "RGB EFR", "RGB BRI", "RGB BRD", "RGB HUI", "RGB HUD", "USB OFF", "BT OFF"]
     - ["LGui", {type: held}, "Space", "Enter", {type: held}, "RAlt"]
