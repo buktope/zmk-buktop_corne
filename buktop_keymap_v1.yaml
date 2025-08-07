@@ -1,0 +1,25 @@
+# parsed and then tweaked from https://github.com/LOWPROKB/zmk-config-zen-2/blob/main/config/corneish_zen.keymap
+layout:
+  zmk_keyboard: corneish_zen
+  layout_name: foostan_corne_6col_layout
+layers:
+  QWERTY:
+    - ["Esc", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Bspace"]
+    - ["Tab", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Ö", "Ä"]
+    - ["Shift", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "Å", "Ctrl"]
+    - ["CMD", "Number", "Space", "Enter", "Symbol", "Alt"]
+  NUMBER:
+    - ["Esc", "HOME", "„", "€", "<", "*", "=", "7", "8", "9", "END", "Bspace"]
+    - ["Tab", "?", "”", "\\", "%", "/", "+", "4", "5", "6", "0", "STOP"]
+    - ["Shift", "MUTE", "¨", "´", ">", "^", "-", "1", "2", "3", "PLAY", "Ctrl"]
+    - ["CMD", {type: held}, "Space", "Enter", null, "Alt"]
+  SYMBOL:
+    - ["Esc", "`", "|", "\"", "#", "(", ")", "&", "UP", "'", "≠", "Bspace"]
+    - ["Tab", ";", ":", "~", "@", "[", "]", "LEFT", "DOWN", "RIGHT", null, "§"]
+    - ["Shift", "PgUp", "PgDw", "$", "!", "{", "}", "_", null, "°", "`", "Ctrl"]
+    - ["CMD", null, "Space", "Enter", {type: held}, "Alt"]
+  FN:
+    - ["F1", "F2", "F3", "F4", "F5", "F6", "BT1", "BT2", "BT3", "BT4", "BT5", "BT CLR"]
+    - ["F7", "F8", "F9", "F10", "F11", "F12", null, null, null, null, null, "BT/USB"]
+    - ["≥", "≤", "RGB ON", "RGB OFF", "RGB EFF", "RGB EFR", "RGB BRI", "RGB BRD", "RGB SPI", "RGB SPD", "USB OFF", "BT OFF"]
+    - ["LGui", {type: held}, "Space", "Enter", {type: held}, "RAlt"]
