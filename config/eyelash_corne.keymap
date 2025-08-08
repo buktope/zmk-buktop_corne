@@ -92,7 +92,7 @@
             bindings = <
 &trans  &kp K_STOP        &kp HOME      &kp LS(DOLLAR)  &kp LESS_THAN         &kp LS(ASTERISK)                                 &mmv MOVE_UP                     &kp LS(RIGHT_PARENTHESIS)  &kp N7  &kp N8  &kp N9  &none   &trans
 &trans  &kp K_PLAY_PAUSE  &kp QUESTION  &kp PIPE        &kp LS(PERCENT)       &kp LS(AMPERSAND)                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS                  &kp N4  &kp N5  &kp N6  &kp N0  &none
-&trans  &kp K_MUTE        &kp END       &none           &kp LS(GREATER_THAN)  &kp CARET          &kp C_MUTE                    &mmv MOVE_DOWN                   &kp SLASH                  &kp N1  &kp N2  &kp N3  &none   &trans
+&trans  &kp C_MUTE        &kp END       &none           &kp LS(GREATER_THAN)  &kp CARET          &kp C_MUTE                    &mmv MOVE_DOWN                   &kp SLASH                  &kp N1  &kp N2  &kp N3  &none   &trans
                                         &trans          &trans                &trans                                                                            &trans                     &mo 3   &trans
             >;
 
