@@ -41,7 +41,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - '{'
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - NUMBER
@@ -53,11 +53,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - STOP
   - HOME
-  - {t: Sft+4, s: Sft+$}
+  - Sft+$
   - <
-  - '*'
+  - Sft+*
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '=', s: +}
+  - Sft+)
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -66,13 +66,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PLAY PAUSE
   - '?'
-  - {t: \, s: '|'}
-  - '%'
-  - {t: /, s: '?'}
+  - '|'
+  - Sft+%
+  - Sft+&
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - +
+  - {t: '-', s: _}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -82,11 +82,11 @@ layers:
   - MUTE
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '>'
+  - Sft+>
   - ^
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -100,28 +100,28 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
-  - '|'
-  - '"'
-  - '#'
-  - (
+  - {t: Sft+=, s: Sft++}
+  - AltGr+7
+  - Sft+2
+  - Sft+3
+  - Sft+8
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - )
-  - '&'
+  - Sft+9
+  - Sft+6
   - $$mdi:arrow-up-bold$$
   - {t: '''', s: '"'}
   - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
-  - {t: ;, s: ':'}
-  - ':'
-  - '@'
-  - {t: '[', s: '{'}
+  - {t: Sft+;, s: 'Sft+:'}
+  - {t: Sft+', s: Sft+"}
+  - AltGr+2
+  - AltGr+8
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: ']', s: '}'}
+  - AltGr+9
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -130,12 +130,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '!'
-  - $
-  - '{'
+  - Sft+1
+  - AltGr+4
+  - Sft+AltGr+8
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '}'
+  - Sft+AltGr+9
   - _
   - '&fetch'
   - '&pull'
