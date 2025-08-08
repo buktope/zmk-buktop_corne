@@ -78,9 +78,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC        &kp Q  &kp W  &kp E     &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I      &kp O    &kp P           &kp BSPC
-&mt LCTRL TAB  &kp A  &kp S  &kp D     &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K      &kp L    &kp SEMI        &kp SQT
-&kp LSHIFT     &kp Z  &kp X  &kp C     &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA  &kp DOT  &kp LEFT_BRACE  &kp LCTRL
+&kp ESC        &kp Q  &kp W  &kp E     &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I      &kp O    &kp P             &kp BSPC
+&mt LCTRL TAB  &kp A  &kp S  &kp D     &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K      &kp L    &kp SEMI          &kp SQT
+&kp LSHIFT     &kp Z  &kp X  &kp C     &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA  &kp DOT  &kp LEFT_BRACKET  &kp LCTRL
                              &kp LGUI  &mo 1  &kp ENTER                                               &kp SPACE  &mo 2  &kp RALT
             >;
 
@@ -90,10 +90,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp K_STOP        &kp HOME      &kp LS(N4)     &kp LESS_THAN     &kp ASTERISK                                &mmv MOVE_UP                     &kp EQUAL  &kp N7  &kp N8  &kp N9  &none   &trans
-&trans  &kp K_PLAY_PAUSE  &kp QUESTION  &kp BACKSLASH  &kp PERCENT       &kp SLASH                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS   &kp N4  &kp N5  &kp N6  &kp N0  &none
-&trans  &kp K_MUTE        &kp END       &none          &kp GREATER_THAN  &kp CARET     &kp C_MUTE                    &mmv MOVE_DOWN                   &kp MINUS  &kp N1  &kp N2  &kp N3  &none   &trans
-                                        &trans         &trans            &trans                                                                       &trans     &mo 3   &trans
+&trans  &kp K_STOP        &kp HOME      &kp LS(DOLLAR)  &kp LESS_THAN         &kp LS(ASTERISK)                                 &mmv MOVE_UP                     &kp LS(RIGHT_PARENTHESIS)  &kp N7  &kp N8  &kp N9  &none   &trans
+&trans  &kp K_PLAY_PAUSE  &kp QUESTION  &kp PIPE        &kp LS(PERCENT)       &kp LS(AMPERSAND)                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS                  &kp N4  &kp N5  &kp N6  &kp N0  &none
+&trans  &kp K_MUTE        &kp END       &none           &kp LS(GREATER_THAN)  &kp CARET          &kp C_MUTE                    &mmv MOVE_DOWN                   &kp SLASH                  &kp N1  &kp N2  &kp N3  &none   &trans
+                                        &trans          &trans                &trans                                                                            &trans                     &mo 3   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -102,10 +102,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp GRAVE  &kp PIPE       &kp DOUBLE_QUOTES  &kp HASH     &kp LEFT_PARENTHESIS                            &mmv MOVE_UP                     &kp RIGHT_PARENTHESIS  &kp AMPS        &kp UP_ARROW    &kp SINGLE_QUOTE  &kp PAGE_UP    &trans
-&trans  &kp TILDE  &kp SEMICOLON  &kp COLON          &kp AT_SIGN  &kp LEFT_BRACKET                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT         &kp PAGE_DOWN  &none
-&trans  &none      &none          &kp EXCLAMATION    &kp DOLLAR   &kp LEFT_BRACE        &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACE        &kp UNDERSCORE  &fetch          &pull             &push          &trans
-                                  &trans             &mo 3        &trans                                                                           &trans                 &trans          &trans
+&trans  &kp LS(EQUAL)  &kp RA(NUMBER_7)   &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_8)                                &mmv MOVE_UP                     &kp LS(NUMBER_9)      &kp LS(NUMBER_6)  &kp UP_ARROW    &kp SINGLE_QUOTE  &kp PAGE_UP    &trans
+&trans  &kp TILDE      &kp LS(SEMICOLON)  &kp LS(SQT)       &kp RA(NUMBER_2)  &kp RA(NUMBER_8)                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RA(NUMBER_9)      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT         &kp PAGE_DOWN  &none
+&trans  &none          &none              &kp LS(NUMBER_1)  &kp RA(NUMBER_4)  &kp LS(RA(NUMBER_8))  &trans                    &mmv MOVE_DOWN                   &kp LS(RA(NUMBER_9))  &kp UNDERSCORE    &fetch          &pull             &push          &trans
+                                          &trans            &mo 3             &trans                                                                           &trans                &trans            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
