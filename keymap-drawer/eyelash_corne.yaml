@@ -51,11 +51,11 @@ layers:
   - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
-  - STOP
-  - HOME
+  - AC HOME
+  - {t: 'Sft+]', s: 'Sft+}'}
   - Sft+AltGr+7
   - Sft+7
-  - Sft+\
+  - {t: Sft+\, s: Sft+|}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Sft+0
   - {t: '7', s: '&'}
@@ -64,8 +64,8 @@ layers:
   - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PLAY PAUSE
-  - {t: 'Sft+]', s: 'Sft+}'}
+  - END
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
   - {t: Sft+`, s: Sft+~}
   - Sft+5
@@ -80,10 +80,10 @@ layers:
   - Sft+4
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - END
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+=, s: Sft++}
+  - {t: '=', s: +}
+  - Sft+1
+  - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: /, s: '?'}
@@ -100,7 +100,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+AltGr+7
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: \, s: '|'}
   - Sft+2
   - AltGr+2
@@ -109,12 +109,12 @@ layers:
   - Sft+9
   - Sft+6
   - $$mdi:arrow-up-bold$$
-  - Sft+1
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+-, s: Sft+_}
-  - Sft+AltGr+7
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+7
   - {t: 'AltGr+]', s: 'AltGr+}'}
   - Sft+3
   - AltGr+8
