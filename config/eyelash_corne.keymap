@@ -118,10 +118,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp C_STOP        &kp HOME               &kp LS(RA(NUMBER_7))  &kp LS(NUMBER_7)  &kp LS(NON_US_BACKSLASH)                           &mmv MOVE_UP                     &kp LS(NUMBER_0)  &kp N7  &kp N8  &kp N9  &kp PAGE_UP        &trans
-&trans  &kp C_PLAY_PAUSE  &kp LS(RIGHT_BRACKET)  &kp GRAVE             &kp LS(GRAVE)     &kp LS(NUMBER_5)                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS         &kp N4  &kp N5  &kp N6  &kp N0             &kp LS(NUMBER_4)
-&trans  &kp C_MUTE        &kp END                &none                 &none             &none                     &none                    &mmv MOVE_DOWN                   &kp SLASH         &kp N1  &kp N2  &kp N3  &kp LS(PAGE_DOWN)  &trans
-                                                 &trans                &trans            &trans                                                                              &trans            &mo 3   &trans
+&trans  &kp C_AC_HOME  &kp LS(RIGHT_BRACKET)  &kp LS(RA(NUMBER_7))  &kp LS(NUMBER_7)  &kp LS(BACKSLASH)                           &mmv MOVE_UP                     &kp LS(NUMBER_0)  &kp N7  &kp N8  &kp N9  &kp PAGE_UP        &trans
+&trans  &kp END        &none                  &kp GRAVE             &kp LS(GRAVE)     &kp LS(NUMBER_5)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS         &kp N4  &kp N5  &kp N6  &kp N0             &kp LS(NUMBER_4)
+&trans  &kp C_MUTE     &kp LS(EQUAL)          &kp EQUAL             &kp LS(NUMBER_1)  &kp LS(MINUS)      &none                    &mmv MOVE_DOWN                   &kp SLASH         &kp N1  &kp N2  &kp N3  &kp LS(PAGE_DOWN)  &trans
+                                              &trans                &trans            &trans                                                                       &trans            &mo 3   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -130,10 +130,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp LS(RA(NUMBER_7))  &kp BACKSLASH         &kp LS(NUMBER_2)       &kp RA(NUMBER_2)  &kp LS(NUMBER_8)                               &mmv MOVE_UP                     &kp LS(NUMBER_9)      &kp LS(NUMBER_6)  &kp UP_ARROW    &kp LS(NUMBER_1)  &none    &trans
-&trans  &kp LS(MINUS)         &kp LS(RA(NUMBER_7))  &kp RA(RIGHT_BRACKET)  &kp LS(NUMBER_3)  &kp RA(NUMBER_8)               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RA(NUMBER_9)      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT         &none    &kp DELETE
-&trans  &log                  &status               &kp LS(SLASH)          &kp RA(NUMBER_4)  &kp LS(RA(NUMBER_8))  &none                    &mmv MOVE_DOWN                   &kp LS(RA(NUMBER_9))  &fetch            &pull           &add              &commit  &push
-                                                    &trans                 &mo 3             &trans                                                                          &trans                &trans            &trans
+&trans  &none  &kp BACKSLASH     &kp LS(NUMBER_2)       &kp RA(NUMBER_2)  &kp LS(NUMBER_8)                               &mmv MOVE_UP                     &kp LS(NUMBER_9)      &kp LS(NUMBER_6)  &kp UP_ARROW    &none      &none    &trans
+&trans  &none  &kp RA(NUMBER_7)  &kp RA(RIGHT_BRACKET)  &kp LS(NUMBER_3)  &kp RA(NUMBER_8)               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RA(NUMBER_9)      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT  &none    &kp DELETE
+&trans  &log   &status           &kp LS(SLASH)          &kp RA(NUMBER_4)  &kp LS(RA(NUMBER_8))  &none                    &mmv MOVE_DOWN                   &kp LS(RA(NUMBER_9))  &fetch            &pull           &add       &commit  &push
+                                 &trans                 &mo 3             &trans                                                                          &trans                &trans            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
