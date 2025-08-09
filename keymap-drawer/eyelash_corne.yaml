@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -53,22 +53,22 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - STOP
   - HOME
-  - Sft+$
-  - <
-  - Sft+*
+  - Sft+AltGr+7
+  - Sft+7
+  - Sft+\
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - Sft+)
+  - Sft+0
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PLAY PAUSE
-  - '?'
-  - '|'
-  - Sft+%
-  - Sft+&
+  - {t: 'Sft+]', s: 'Sft+}'}
+  - {t: '`', s: '~'}
+  - {t: Sft+`, s: Sft+~}
+  - Sft+5
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -77,20 +77,20 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '0', s: )}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+4
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Sft+>
-  - ^
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: /, s: '?'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -100,23 +100,23 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+=, s: Sft++}
-  - AltGr+7
+  - Sft+AltGr+7
+  - {t: \, s: '|'}
   - Sft+2
-  - Sft+3
+  - AltGr+2
   - Sft+8
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Sft+9
   - Sft+6
   - $$mdi:arrow-up-bold$$
-  - {t: '''', s: '"'}
-  - PgUp
+  - Sft+1
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
-  - {t: Sft+;, s: 'Sft+:'}
-  - {t: Sft+', s: Sft+"}
-  - AltGr+2
+  - {t: Sft+-, s: Sft+_}
+  - Sft+AltGr+7
+  - {t: 'AltGr+]', s: 'AltGr+}'}
+  - Sft+3
   - AltGr+8
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -125,22 +125,22 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Sft+1
+  - '&log'
+  - '&status'
+  - {t: Sft+/, s: 'Sft+?'}
   - AltGr+4
   - Sft+AltGr+8
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Sft+AltGr+9
-  - _
   - '&fetch'
   - '&pull'
+  - '&add'
+  - '&commit'
   - '&push'
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Fn
   - {t: '$$mdi:transfer$$', type: trans}
@@ -182,7 +182,7 @@ layers:
   - RGB BRI
   - RGB BRD
   - RGB EFF
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
