@@ -17,5 +17,5 @@ If you need a 3D model of this keyboard, email `380465425@qq.com`.
 
 ## Keymap Diagram
 
-![Diagram of config/eyelash_corne.keymap](keymap-drawer/eyelash_corne.svg "generated with Keymap Drawer")
+![Diagram of config/eyelash_corne.keymap](keymap-drawer/buktop-corne-v4-dark.png "generated with Keymap Drawer")
 
