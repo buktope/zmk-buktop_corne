@@ -45,8 +45,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   NUMBER:
@@ -195,4 +195,4 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
