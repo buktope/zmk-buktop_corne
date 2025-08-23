@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - SYMBOL
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:keyboard-tab$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
