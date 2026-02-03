@@ -13,5 +13,5 @@
 
 ## Keymap Diagram
 
-![Diagram of config/eyelash_corne.keymap](keymap-drawer/buktop-corne-v4-dark.png "generated with Keymap Drawer")
+![Diagram of config/eyelash_corne.keymap](keymap-drawer/eyelash_corne.svg "generated with Keymap Drawer")
 
