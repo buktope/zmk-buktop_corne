@@ -53,14 +53,14 @@
         fetch: fetch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F &kp E &kp T &kp C &kp H &kp SPACE>;
+            bindings = <&kp F &kp E &kp T &kp C &kp H>;
             label = "FETCH";
         };
 
         pull: pull {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &kp U &kp L &kp L &kp SPACE>;
+            bindings = <&kp P &kp U &kp L &kp L>;
             label = "PULL";
         };
 
@@ -74,28 +74,28 @@
         add: add {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp D &kp D &kp SPACE>;
+            bindings = <&kp A &kp D &kp D>;
             label = "ADD";
         };
 
         commit: commit {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp O &kp M &kp M &kp I &kp T &kp SPACE>;
+            bindings = <&kp C &kp O &kp M &kp M &kp I &kp T>;
             label = "COMMIT";
         };
 
         log: log {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp L &kp O &kp G &kp SPACE>;
+            bindings = <&kp G &kp L &kp O &kp G>;
             label = "LOG";
         };
 
         status: status {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp T &kp A &kp T &kp U &kp S &kp SPACE>;
+            bindings = <&kp S &kp T &kp A &kp T &kp U &kp S>;
             label = "STATUS";
         };
     };
