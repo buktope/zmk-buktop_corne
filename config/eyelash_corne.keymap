@@ -119,10 +119,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp HOME    &kp SV_CARET  &kp NON_US_BACKSLASH  &kp SV_SLASH        &kp SV_ASTERISK                           &mmv MOVE_UP                     &kp SV_EQUAL  &kp SV_N7  &kp SV_N8  &kp SV_N9  &kp PAGE_UP        &trans
-&trans  &kp END     &none         &kp LESS_THAN         &kp GREATER_THAN    &kp SV_PERCENT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SV_PLUS   &kp SV_N4  &kp SV_N5  &kp SV_N6  &kp SV_N0          &kp LS(SV_N4)
-&trans  &kp C_MUTE  &kp SV_GRAVE  &kp SV_ACUTE          &kp SV_EXCLAMATION  &kp SV_QUESTION  &none                    &mmv MOVE_DOWN                   &kp SV_MINUS  &kp SV_N1  &kp SV_N2  &kp SV_N3  &kp LS(PAGE_DOWN)  &trans
-                                  &trans                &trans              &trans                                                                     &trans        &mo 3      &trans
+&trans  &kp HOME    &kp SV_CARET  &kp LS(RA(SV_N7))  &kp SV_SLASH        &kp SV_ASTERISK                           &mmv MOVE_UP                     &kp SV_EQUAL  &kp SV_N7  &kp SV_N8  &kp SV_N9  &kp PAGE_UP        &trans
+&trans  &kp END     &none         &kp SV_SECTION     &kp LS(SV_SECTION)  &kp SV_PERCENT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SV_PLUS   &kp SV_N4  &kp SV_N5  &kp SV_N6  &kp SV_N0          &kp LS(SV_N4)
+&trans  &kp C_MUTE  &kp SV_GRAVE  &kp SV_ACUTE       &kp SV_EXCLAMATION  &kp SV_QUESTION  &none                    &mmv MOVE_DOWN                   &kp SV_MINUS  &kp SV_N1  &kp SV_N2  &kp SV_N3  &kp LS(PAGE_DOWN)  &trans
+                                  &trans             &trans              &trans                                                                     &trans        &mo 3      &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -131,9 +131,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp SV_SECTION                        &kp SV_SQT         &kp SV_DOUBLE_QUOTES  &kp SV_AT_SIGN  &kp SV_LEFT_PARENTHESIS                           &mmv MOVE_UP                     &kp SV_RIGHT_PARENTHESIS  &kp SV_AMPERSAND  &kp UP_ARROW    &none      &none  &trans
+&trans  &kp NON_US_BACKSLASH                  &kp SV_SQT         &kp SV_DOUBLE_QUOTES  &kp SV_AT_SIGN  &kp SV_LEFT_PARENTHESIS                           &mmv MOVE_UP                     &kp SV_RIGHT_PARENTHESIS  &kp SV_AMPERSAND  &kp UP_ARROW    &none      &none  &trans
 &trans  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp SV_LEFT_BRACE  &kp SV_TILDE          &kp SV_HASH     &kp SV_LEFT_BRACKET               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SV_RIGHT_BRACKET      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT  &none  &kp DELETE
-&trans  &none                                 &none              &kp SV_UNDERSCORE     &kp SV_DOLLAR   &kp LEFT_BRACE           &none                    &mmv MOVE_DOWN                   &kp SV_RIGHT_BRACE        &none             &none           &none      &none  &none
+&trans  &none                                 &none              &kp SV_UNDERSCORE     &kp SV_DOLLAR   &kp RA(LS(SV_N8))        &none                    &mmv MOVE_DOWN                   &kp SV_RIGHT_BRACE        &none             &none           &none      &none  &none
                                                                  &trans                &mo 3           &trans                                                                             &trans                    &trans            &trans
             >;
 
