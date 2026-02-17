@@ -131,10 +131,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp NON_US_BACKSLASH                  &kp SV_SQT         &kp SV_DOUBLE_QUOTES  &kp SV_AT_SIGN  &kp SV_LEFT_PARENTHESIS                           &mmv MOVE_UP                     &kp SV_RIGHT_PARENTHESIS  &kp SV_AMPERSAND  &kp UP_ARROW    &none      &none  &trans
-&trans  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp SV_LEFT_BRACE  &kp SV_TILDE          &kp SV_HASH     &kp SV_LEFT_BRACKET               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SV_RIGHT_BRACKET      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT  &none  &kp DELETE
-&trans  &none                                 &none              &kp SV_UNDERSCORE     &kp SV_DOLLAR   &kp RA(LS(SV_N8))        &none                    &mmv MOVE_DOWN                   &kp SV_RIGHT_BRACE        &none             &none           &none      &none  &none
-                                                                 &trans                &mo 3           &trans                                                                             &trans                    &trans            &trans
+&trans  &kp NON_US_BACKSLASH  &kp SV_SQT         &kp SV_DOUBLE_QUOTES  &kp SV_AT_SIGN  &kp SV_LEFT_PARENTHESIS                           &mmv MOVE_UP                     &kp SV_RIGHT_PARENTHESIS  &kp SV_AMPERSAND  &kp UP_ARROW    &none      &none  &trans
+&trans  &kp GLOBE             &kp SV_LEFT_BRACE  &kp SV_TILDE          &kp SV_HASH     &kp SV_LEFT_BRACKET               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SV_RIGHT_BRACKET      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT  &none  &kp DELETE
+&trans  &none                 &none              &kp SV_UNDERSCORE     &kp SV_DOLLAR   &kp RA(LS(SV_N8))        &none                    &mmv MOVE_DOWN                   &kp LS(RA(SV_N9))         &none             &none           &none      &none  &none
+                                                 &trans                &mo 3           &trans                                                                             &trans                    &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
